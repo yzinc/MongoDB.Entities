@@ -9,7 +9,7 @@ namespace MongoDB.Entities.Tests
         [AssemblyInitialize]
         public static async Task Init(TestContext _)
         {
-            await DB.InitAsync("mongodb-entities-test");
+            //await DB.InitAsync("mongodb-entities-test");
         }
     }
 }
